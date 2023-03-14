@@ -1,0 +1,11 @@
+Node JS is a runtime environment to run JS just like a browser does.
+
+Browser vs Node:-
+
+Node doesn't have access to Browser Web APIs -> DOM(i.e we can't access document object), Window.
+Node allow us to build server side apps. But browser/client side JS only adds
+interactivity to the app.
+No filesystem available in Browser but Node has a file system.
+Node uses CommomJS module syntax(uses Common JS library internally) but browsers now do support ES6 modules.
+We can either use REPL -> Read Evaluate Print Loop which takes a line of code and executes it
+or we can create a js file and run node filename.js command to run the entire file all at once.
