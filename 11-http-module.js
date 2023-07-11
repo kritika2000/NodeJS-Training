@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
         request like methods etc.
         res -> what we send back from the server.
     */
-  //    Handling requests from client bast upon the routes/url entered.
+  //    Handling requests from client based upon the routes/url entered.
   if (req.url === "/") {
     res.end("Welcome to our home page");
   } else if (req.url === "/about") {

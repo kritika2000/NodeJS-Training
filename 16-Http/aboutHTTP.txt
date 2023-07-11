@@ -1,0 +1,21 @@
+Everytime we type a url in the browser, we're requesting data from the
+server.
+Since we use HTTP protocol to send data between client and the server,
+so we call them http request and http response.
+So, the user sends a http request and server send an http response.
+Servers are computers whose job is to ensure that the resource the client 
+is requesting is available.
+We can pass additional information with the request and response(http messages)
+using headers(key-value pairs).
+We have request methods GET, POST, PUT, DELETE to determine the type of
+request we want to do from the server.
+GET -> To get a resource. Default request we perform from the browser.
+POST -> To create something new in the server. We need to send a body/payload as 
+        request header to the server.
+PUT -> To update something on the server. We need to send a body/payload to the server.
+DELETE -> To delete something in the server.
+
+Request headers -> Eg:- body or payload when we need to create something new on the server.
+Response headers -> Status code to indicate what happened to the request(successful, error etc),
+                    content-type(eg:- text/html or json)
+We usually send json data and the client can handle it what to do with it.
